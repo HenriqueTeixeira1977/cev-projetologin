@@ -31,11 +31,12 @@ main{
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: aliceblue;
-    width: 250px;
-    height: 550px;
+    width: 300px;
+    height: 530px;
     border-radius: 20px;
     overflow: hidden;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.459);
+    
     transition: width .3s, height .3s;
     transition-timing-function: ease;
 }
@@ -57,8 +58,6 @@ main{
 }
 #formulario p{
     font-size: .8em;
-    text-align: justify;
-    padding-bottom: 10px;
 }
 .campo{
     background-color: #5f2c82;
@@ -67,8 +66,36 @@ main{
     height: 40px;
     border-radius: 5px;
     margin: 5px 0px;
-    margin-bottom: 10px;
+    border: 2px solid #5f2c82;
 }
+.campo label{
+    display: none;
+}
+
+.campo i{
+    color: aliceblue;
+
+    font-size: 2em;
+    width: 40px;
+    padding: 5px;
+}
+
+.campo input{
+    background-color: ;
+    font-size: 1em;
+    width: calc(100% - 45px);
+    height: 100%;
+    border: 0px;
+    border-radius: 8px;
+    padding: 4px;
+    
+    transform: translateY(-12px);
+}
+.campo input:focus-within{
+    background-color: rgb(227, 227, 227);
+}
+
+
 #submit{
     display: block;
     font-size: 1em;
@@ -79,9 +106,7 @@ main{
     border: none;
     border-radius: 5px;
     cursor: pointer;
-}
-.campo label{
-    display: none;
+    margin-top: 20px;
 }
 #submit:hover{
     background-color: #397d7b;
