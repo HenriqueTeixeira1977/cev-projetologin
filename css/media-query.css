@@ -58,12 +58,12 @@ Grandes Telas:      acima de 1200;
         width: 900px;
     }
     #imagem{
-        float: left;
-        width: 30%;
+        float: right;
+        width: 50%;
         height: 100%;
     }
     #formulario{
-        float: right;
-        width: 70%;
+        float: left;
+        width: 50%;
     }
 }
